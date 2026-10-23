@@ -52,7 +52,7 @@ All connectors depend on GenAI Commons and can be used with the other [core modu
 | [Mendix Cloud GenAI Connector](/agents/agents-kit-2/mx-cloud-genai/mxgenai-connector/) | Connect to Mendix Cloud and use Mendix Cloud GenAI resource packs directly within your Mendix application. | 7.4.0 |
 | [Mistral Connector](/agents/agents-kit-2/reference-guide/external-connectors/mistral/) | Connect to Mistral AI. | 2.2.0 |
 | [OpenAI Connector](/agents/agents-kit-2/reference-guide/external-connectors/openai/) | Connect to OpenAI and Microsoft Foundry. | 9.4.0 |
-| [PgVector Knowledge Base](/agents/agents-kit-2/reference-guide/external-connectors/pgvector/) | Manage and interact with a PostgreSQL PgVector knowledge base. | 7.1.0 |
+| [PgVector Knowledge Base](/agents/agents-kit-2/reference-guide/external-connectors/pgvector/) | Manage and interact with a PostgreSQL PgVector knowledge base. | 7.0.0 |
 
 ### MCP Modules {#mcp-modules}
 
