@@ -129,7 +129,7 @@ The connector runs the microflow before every request to the API, for example, f
 The microflow must meet the following requirements:
 
 * It returns a list of `System.HttpHeader` objects. Each object contains the header name in the `Key` attribute and the header value in the `Value` attribute, for example, `Authorization` with the value `Bearer <your-token>`.
-* It has either no input parameters or a single input parameter that accepts configuration object. For configurations, use `OpenAIConnector.Configuration` or a specialization, such as `GoogleGeminiConnector.GeminiConfiguration`. For Azure AI Search resources, use `OpenAIConnector.AzureAISearchResource`.
+* It has either no input parameters or a single input parameter that accepts the corresponding configuration object. For model resources, use `OpenAIConnector.Configuration` or a specialization, such as `GoogleGeminiConnector.GeminiConfiguration`. For Azure AI Search resources, use `OpenAIConnector.AzureAISearchResource`.
 
 The **Get credentials microflow** field only lists microflows that meet these requirements. If the microflow fails or returns no headers, the operation fails and the error is logged.
 
